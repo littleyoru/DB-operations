@@ -1,5 +1,30 @@
 .App {
   text-align: center;
+  div {
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    li {
+      list-style: none;
+      padding-bottom: 5px;
+      label {
+        width: 30%;
+        padding-right: 10px;
+        display: inline-block;
+      }
+      input {
+        width: 50%;
+        height: 20px;
+        display: inline-block;
+      }
+    }
+  }
+  .feedback {
+    label {
+      font-style: italic;
+      color: limegreen;
+    }
+  }
 }
 
 .App-logo {
@@ -9,7 +34,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
